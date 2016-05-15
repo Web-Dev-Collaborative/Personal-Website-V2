@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 html {
 	height: 100vh;
@@ -6,9 +6,9 @@ html {
 }
 
 body {
-	background-color: #285086;
+	background-color: #fff;
 	font-family: 'Lato', sans-serif;
-	color: #fff;
+	color: #616161;
 }
 
 nav.custom {
@@ -20,6 +20,18 @@ nav.custom2 {
 	background-color: rgba(0, 0, 0, 0.4) !important;
 }
 
+nav ul a {
+    color: #616161;
+}
+
+li#logo {
+    padding-bottom: 60px;
+}
+
+.table-of-contents a.active {
+    border-left: 8px solid #58c4ea;
+}
+
 section#home {
 	padding-top: 100px;
 	height: 100vh;
@@ -27,13 +39,11 @@ section#home {
 }
 
 section#about {
-	padding-top: 100px;
-	background-color: #0d6cb7;
+	padding: 0 20px 0 200px;
 }
 
 section#projects {
 	padding-top: 100px;
-	background-color: #fff;
 }
 
 @media (min-width: 601px) {
@@ -46,18 +56,22 @@ section#projects {
 	}
 }
 
-span#chung {
-	font-weight: 700;
+h2#raymond {
+    font-weight: 300;
 }
 
-span#andSymbol {
-	color: #fff;
+span#chung {
+    color: #58c4ea;
+	font-weight: 700;
 }
 
 h5#sub {
 	font-size: 20px;
-	border: 4px solid #fdc424;
-	color: #fdc424;
+    font-weight: 300;
+    letter-spacing: 1px;
+    border: 4px solid #58c4ea;
+	/* border: 4px solid #fdc424; */
+	/* color: #fdc424; */
 	padding: 10px;
 }
 
@@ -96,16 +110,16 @@ h5#aboutSub {
     color: transparent;
     font-size: 1.6em;
     border-radius: 200px;
-    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.3);
 }
 
 span.social-icons.fa-stack {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 0.3);
 }
 
 span.linkedin.social-icons.fa-stack.fa-2x:hover {
     color: #1b8bbf;
-    box-shadow: 0 0 0 4px #1b8bbf;
+    box-shadow: 0 0 0 2px #1b8bbf;
     animation-name: linkedinHover;
     animation-duration: 0.3s;
     animation-iteration-count: 1;
@@ -113,7 +127,7 @@ span.linkedin.social-icons.fa-stack.fa-2x:hover {
 
 span.github.social-icons.fa-stack.fa-2x:hover {
     color: #ff449c;
-    box-shadow: 0 0 0 4px #ff449c;
+    box-shadow: 0 0 0 2px #ff449c;
     animation-name: githubHover;
     animation-duration: 0.3s;
     animation-iteration-count: 1;
@@ -121,32 +135,32 @@ span.github.social-icons.fa-stack.fa-2x:hover {
 
 span.instagram.social-icons.fa-stack.fa-2x:hover {
     color: #ffae22;
-    box-shadow: 0 0 0 4px #ffae22;
-    animation-name: instagramover;
+    box-shadow: 0 0 0 2px #ffae22;
+    animation-name: instagramHover;
     animation-duration: 0.3s;
     animation-iteration-count: 1;
 }
 
 @keyframes instagramHover { /* #ffae22 in GBA is 255, 174, 34 */
-    0% {box-shadow: 0 0 0 4px rgba(255, 174, 34, 0.2);} 
-    25% {box-shadow: 0 0 0 4px rgba(255, 174, 34, 0.4);} 
-    50% {box-shadow: 0 0 0 4px rgba(255, 174, 34, 0.6);} 
-    75% {box-shadow: 0 0 0 4px rgba(255, 174, 34, 0.8);} 
-    100% {box-shadow: 0 0 0 4px rgba(255, 174, 34, 1);} 
+    0% {box-shadow: 0 0 0 2px rgba(255, 174, 34, 0.2);} 
+    25% {box-shadow: 0 0 0 2px rgba(255, 174, 34, 0.4);} 
+    50% {box-shadow: 0 0 0 2px rgba(255, 174, 34, 0.6);} 
+    75% {box-shadow: 0 0 0 2px rgba(255, 174, 34, 0.8);} 
+    100% {box-shadow: 0 0 0 2px rgba(255, 174, 34, 1);} 
 }
 
 @keyframes githubHover { /* #ff449c in GBA is 255, 68, 156 */
-    0% {box-shadow: 0 0 0 4px rgba(255, 68, 156, 0.2);} 
-    25% {box-shadow: 0 0 0 4px rgba(255, 68, 156, 0.4);} 
-    50% {box-shadow: 0 0 0 4px rgba(255, 68, 156, 0.6);} 
-    75% {box-shadow: 0 0 0 4px rgba(255, 68, 156, 0.8);} 
-    100% {box-shadow: 0 0 0 4px rgba(255, 68, 156, 1);} 
+    0% {box-shadow: 0 0 0 2px rgba(255, 68, 156, 0.2);} 
+    25% {box-shadow: 0 0 0 2px rgba(255, 68, 156, 0.4);} 
+    50% {box-shadow: 0 0 0 2px rgba(255, 68, 156, 0.6);} 
+    75% {box-shadow: 0 0 0 2px rgba(255, 68, 156, 0.8);} 
+    100% {box-shadow: 0 0 0 2px rgba(255, 68, 156, 1);} 
 }
 
 @keyframes linkedinHover { /* #1b8bbf in GBA is 27, 129, 191 */
-    0% {box-shadow: 0 0 0 4px rgba(27, 129, 191, 0.2);} 
-    25% {box-shadow: 0 0 0 4px rgba(27, 129, 191, 0.4);} 
-    50% {box-shadow: 0 0 0 4px rgba(27, 129, 191, 0.6);} 
-    75% {box-shadow: 0 0 0 4px rgba(27, 129, 191, 0.8);} 
-    100% {box-shadow: 0 0 0 4px rgba(27, 129, 191, 1);} 
+    0% {box-shadow: 0 0 0 2px rgba(27, 129, 191, 0.2);} 
+    25% {box-shadow: 0 0 0 2px rgba(27, 129, 191, 0.4);} 
+    50% {box-shadow: 0 0 0 2px rgba(27, 129, 191, 0.6);} 
+    75% {box-shadow: 0 0 0 2px rgba(27, 129, 191, 0.8);} 
+    100% {box-shadow: 0 0 0 2px rgba(27, 129, 191, 1);} 
 }
