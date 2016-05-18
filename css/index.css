@@ -41,7 +41,6 @@ section#home {
 }
 
 section#about {
-	padding: 0 20px 0 200px;
 }
 
 section#projects {
@@ -51,6 +50,10 @@ section#projects {
 @media (min-width: 601px) {
 	section#home {
 		padding-top: 130px;
+        background-image: url(../img/iphonefinal.png);
+        background-repeat: no-repeat;
+        background-size: 62vw;
+        background-position: center 60vh;
 	}
 
 	section#projects {
@@ -93,6 +96,24 @@ h5#aboutSub {
     h5#aboutSub {
         font-size: 24px;
     }
+}
+
+.aTop {
+    padding: 40px 0 40px 0;
+}
+
+.aBot {
+}
+
+h4#title {
+    color: #58c4ea;
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+
+hr#hrTitle {
+    border: 1.4px solid #ececec;
+    margin: 0 600px 0 600px;
 }
 
 .list-inline>li {
