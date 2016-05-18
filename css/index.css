@@ -47,6 +47,11 @@ section#projects {
 	padding-top: 100px;
 }
 
+section#contact {
+    color: #fff;
+    background-color: #2b2d2f;
+}
+
 @media (min-width: 601px) {
 	section#home {
 		padding-top: 130px;
@@ -106,13 +111,13 @@ h5#aboutSub {
 }
 
 h4#title {
-    color: #58c4ea;
+    /* color: #58c4ea; */
     letter-spacing: 4px;
     font-weight: 300;
 }
 
 hr#hrTitle {
-    border: 1.4px solid #ececec;
+    border: 1.4px solid #5dd1e4;
     margin: 0 600px 0 600px;
 }
 
