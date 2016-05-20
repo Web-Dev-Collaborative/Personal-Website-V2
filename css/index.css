@@ -37,6 +37,10 @@ li#logo {
     padding-bottom: 60px;
 }
 
+.table-of-contents a:hover {
+    border-left: 2px solid #58c4ea;
+}
+
 .table-of-contents a.active {
     border-left: 8px solid #58c4ea;
 }
@@ -162,10 +166,17 @@ li#menucontact {
     padding-left: 14px;
 }
 
-a#resume {
+button#resume {
     font-size: 20px;
-    color: #5dd1e4;
+    color: #616161;
     background-color: transparent;
+    border: 2px solid #616161;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button#resume:hover {
+    color: #5dd1e4;
     border: 2px solid #5dd1e4;
 }
 
@@ -182,6 +193,10 @@ span#skills {
 p#aboutSkills {
     font-size: 14pt;
     margin-bottom: -1px;
+}
+
+#blank:hover {
+    opacity: 0.65;
 }
 
 .list-inline>li {
@@ -220,6 +235,10 @@ span.contact-icons.fa-stack {
     color: rgba(255, 255, 255, 0.3);
 }
 
+span.contact-icons.fa-stack:hover {
+    color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255 ,0.8);
+}
 span.linkedin.social-icons.fa-stack.fa-2x:hover {
     color: #1b8bbf;
     box-shadow: 0 0 0 2px #1b8bbf;
@@ -237,19 +256,19 @@ span.github.social-icons.fa-stack.fa-2x:hover {
 }
 
 span.instagram.social-icons.fa-stack.fa-2x:hover {
-    color: #ffae22;
-    box-shadow: 0 0 0 2px #ffae22;
+    color: #ff652f;
+    box-shadow: 0 0 0 2px #ff652f;
     animation-name: instagramHover;
     animation-duration: 0.3s;
     animation-iteration-count: 1;
 }
 
-@keyframes instagramHover { /* #ffae22 in GBA is 255, 174, 34 */
-    0% {box-shadow: 0 0 0 2px rgba(255, 174, 34, 0.2);} 
-    25% {box-shadow: 0 0 0 2px rgba(255, 174, 34, 0.4);} 
-    50% {box-shadow: 0 0 0 2px rgba(255, 174, 34, 0.6);} 
-    75% {box-shadow: 0 0 0 2px rgba(255, 174, 34, 0.8);} 
-    100% {box-shadow: 0 0 0 2px rgba(255, 174, 34, 1);} 
+@keyframes instagramHover { /* #ffae22 in GBA is 255, 174, 34; ff652f is 255, 101, 47*/
+    0% {box-shadow: 0 0 0 2px rgba(255, 101, 47, 0.2);} 
+    25% {box-shadow: 0 0 0 2px rgba(255, 101, 47, 0.4);} 
+    50% {box-shadow: 0 0 0 2px rgba(255, 101, 47, 0.6);} 
+    75% {box-shadow: 0 0 0 2px rgba(255, 101, 47, 0.8);} 
+    100% {box-shadow: 0 0 0 2px rgba(255, 101, 47, 1);} 
 }
 
 @keyframes githubHover { /* #ff449c in GBA is 255, 68, 156 */
