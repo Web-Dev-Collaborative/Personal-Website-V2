@@ -110,7 +110,8 @@ h4#title {
 
 hr#hrTitle {
     border: 1.4px solid #5dd1e4;
-    margin: 0 11em 0 11em;
+    background-color: #5dd1e4;
+    margin: 0 40vw 0 40vw;
 }
 
 img#blank {
@@ -126,8 +127,8 @@ img#blank {
         padding-top: 130px;
         background-image: url(../img/iphoneangle.png);
         background-repeat: no-repeat;
-        background-size: 62vw;
-        background-position: center 60vh;
+        background-size: 90vw;
+        background-position: center 50vh;
     }
 
     section#projects {
@@ -143,7 +144,7 @@ img#blank {
     }
 
     hr#hrTitle {
-        margin: 0 25em 0 25em !important;
+        margin: 0 45vw 0 45vw !important;
     }
 
     img#pic {
@@ -152,12 +153,17 @@ img#blank {
 }
 
 @media(min-width: 901px) {
+    section#home {
+        background-size: 62vw;
+        background-position: center 60vh;
+    }
+
     h5#sub {
         margin: 0 200px 0 200px;
     }
 
     hr#hrTitle {
-        margin: 0 40em 0 40em !important;
+        margin: 0 47vw 0 47vw !important;
     }
 
     #iconFix { /* fix this */
@@ -165,9 +171,9 @@ img#blank {
     }
 }
 
-@media(min-width: 1401px) {
-    hr#hrTitle {
-        margin: 0 46em 0 46em !important;
+@media(min-width: 1301px) {
+    section#home {
+        background-position: center 50vh;
     }
 }
 
