@@ -4,9 +4,8 @@ link:  "shopAssist"
 image: "blank2.png"
 ---
 
-<h4>Hanzel</h4>
-<p>Skills acquired: UI/UX Researching & Designing, Rapid Prototyping, iOS Development using Swift</p>
-<p>Tools Used: Microsoft Azure, Xcode, Adobe Photoshop, Proto.io</p>
-<p>The idea of Hanzel was to create a mobile app that would allow a hungover user to trace back where they went the night before displaying where they went and how long they stay at one location for. This idea was pitched during the hackathon called Qhacks. This hackathon allowed me to develop new skills such as UI/UX designing and researching, rapid prototpying and gaining insights into app development. Unfortunately we were not able to finish the app because of complications, but it truly kick started my path towards iOS development.</p>
-<span>Problem: What happened the night before?</span>
-<p>Based on general research, we learn that university and college students who enjoy the night life would often forget where they went last night, and that a majority of these night-goers uses an iPhone. Based on this information, an iOS app would be the most suitable to solve that problem. I was responsible for designing the product and creating the backend of the app. With some UI/UX research and mockups, a good backend to use would be a cloud service such as Microsoft Azure, because it can work among different platforms and help adds another functionality. After I created the prototype, we got started on building the app.</p>
+<h4>shopAssist</h4>
+<p>Skills: Rapid prototyping, iOS Development</p>
+<p>Tools Used: Paper & Pen, Xcode, Adobe Photoshop</p>
+<span>Problem: How can we lessen the language barrier between a customer and the employee?</span>
+<p>While I was working at retail one day, a customer who does not speak English fluently approached me trying to ask for something. It took some time but I was able to help that customer. At the same time, it got me thinking, how can I help similar customers communicate better with people who does not speak the same language. With everyone relying on handheld, mobile devices, an app would be the most suitable to lessen the communication barriers. The iOS app uses a speech sythesizer to say certain words/phrases in English that a customer would want to ask based on my experience. The only thing the user needs to do is press a button that best coresponds to what they would want to ask the retail clerk. Each button contains text written in their own language and colour coded for easier use.</p>

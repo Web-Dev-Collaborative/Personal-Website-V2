@@ -4,9 +4,7 @@ link: "foody"
 image: "blank4.png"
 ---
 
-<h4>Hanzel</h4>
-<p>Skills acquired: UI/UX Researching & Designing, Rapid Prototyping, iOS Development using Swift</p>
-<p>Tools Used: Microsoft Azure, Xcode, Adobe Photoshop, Proto.io</p>
-<p>The idea of Hanzel was to create a mobile app that would allow a hungover user to trace back where they went the night before displaying where they went and how long they stay at one location for. This idea was pitched during the hackathon called Qhacks. This hackathon allowed me to develop new skills such as UI/UX designing and researching, rapid prototpying and gaining insights into app development. Unfortunately we were not able to finish the app because of complications, but it truly kick started my path towards iOS development.</p>
-<span>Problem: What happened the night before?</span>
-<p>Based on general research, we learn that university and college students who enjoy the night life would often forget where they went last night, and that a majority of these night-goers uses an iPhone. Based on this information, an iOS app would be the most suitable to solve that problem. I was responsible for designing the product and creating the backend of the app. With some UI/UX research and mockups, a good backend to use would be a cloud service such as Microsoft Azure, because it can work among different platforms and help adds another functionality. After I created the prototype, we got started on building the app.</p>
+<h4>Foody</h4>
+<p>Things Learned: Entrepreneurship, Marketing, Pitching, Business</p>
+<span>Problem: What fresh and healthy meal can I get on campus within 10 minutes?</span>
+<p>Foody is a subscription-based meal service that distribute fresh, healthy meals in bulk at a cheap price. We founded it to target students within the Queen's community, where trying to eat healthy especially on campus is not friendly on a student budget. I was responsible for maintaining the website and by helping distribute the meals to our customers. Even though it did not work out well, we were glad to have been able to launch it by running a beta testing of it to 6 students of different studies with positive feedback.</p>
