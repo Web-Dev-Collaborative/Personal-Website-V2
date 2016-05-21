@@ -1,0 +1,34 @@
+{% assign array1 = "iOS Development,Python,Java,HTML/CSS,SQL,Bootstrap,Materialize,Photoshop,Illustrator,Bash" | split: "," %}
+{% assign array2 = "Azure,PHP,JavaScript,Jekyll,Unity,Prototyping,UI/UX" | split: "," %}
+{% assign array3 = "Xtext & Xtend,Node.js,Angular.js,MEAN Stack" | split: "," %}
+
+<section id="about" class="section scrollspy">
+	<div class="row center aTop">
+		<h4 id="title">HI! I AM RAYMOND</h4>
+		<hr id="hrTitle">
+	</div>
+	<div class="row aBot">
+		<div class="col s12 m6 l6 center">
+			<img id='pic' src="img/raymond.jpg">
+			<!-- <p>"I make stuff." I am currently a fourth year Computer Science student at Queen's University, where I plan to graduating this upcoming May 2017. I am interested in coding, research, UI/UX, designing, making iOS apps and entrepreneurship! During my time away from the computer, I enjoy socializing with friends, cooking, playing basketball and soccer (go PSG!) and I watch a lot of shows (Netflix originals is major key)!</p> -->
+			<p>I am a fourth year Computer Science & Education student at Queen's University. I am from Toronto, Ontario. I enjoy cooking, playing basketball and soccer and watching shows. My passion lies within entrepreneurship, mobile (iOS) and web development. I enjoy creating things for fun, but would like to apply my skills and expertise in the workforce.</p><p>I am currently a Research Assistant at Queen's Faculty of Computing researching software modelling and model-driven development (MDD).</p>
+		</div>
+		<div class="col s12 m6 l6">
+			<div class="center">
+				<a href="resume.pdf"><button id="resume">DOWNLOAD RESUME</button></a>
+			</div>
+			<p id="aboutSkills">PROFICIENT WITH:</p>
+			{% for i in array1 %}
+			<div id="skills" class="chip">{{ i }}</div>
+			{% endfor %}
+			<p id="aboutSkills">MODERATE WITH:</p>
+			{% for j in array2 %}
+			<div id="skills" class="chip">{{ j }}</div>
+			{% endfor %}
+			<p id="aboutSkills">CURRENTLY LEARNING:</p>
+			{% for k in array3 %}
+			<div id="skills" class="chip">{{ k }}</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
