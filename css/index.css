@@ -193,6 +193,9 @@ button#resume {
 button#resume:hover {
     color: #5dd1e4;
     border: 2px solid #5dd1e4;
+    animation-name: resumeAnim;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
 }
 
 div#skills {
@@ -208,6 +211,11 @@ p#aboutSkills {
 
 #blank:hover {
     opacity: 0.65;
+}
+
+.modal {
+	width: 80vw;
+	height: 70vh;
 }
 
 .list-inline>li {
@@ -272,6 +280,14 @@ span.instagram.social-icons.fa-stack.fa-2x:hover {
     animation-name: instagramHover;
     animation-duration: 0.3s;
     animation-iteration-count: 1;
+}
+
+@keyframes resumeAnim {
+    0% {border-color: rgba(93, 209, 228, 0.2);} 
+    25% {border-color: rgba(93, 209, 228, 0.4);} 
+    50% {border-color: rgba(93, 209, 228, 0.6);} 
+    75% {border-color: rgba(93, 209, 228, 0.8);} 
+    100% {border-color: rgba(93, 209, 228, 1);} 
 }
 
 @keyframes instagramHover { /* #ffae22 in GBA is 255, 174, 34; ff652f is 255, 101, 47*/
