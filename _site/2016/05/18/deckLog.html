@@ -10,6 +10,7 @@
 
 	<!-- CSS -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="/css/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="/css/index.css">
@@ -23,7 +24,7 @@
     <div class="navbar">
 	<div class="nav-wrapper container">
 		<ul id="nav-mobile" class="section table-of-contents side-nav">
-			<li><a href="!">HOME</a></li>
+			<li><a href="#home">HOME</a></li>
 			<li><a href="resume.pdf">RESUME</a></li>
 			<li><a href="#about">ABOUT</a></li>
 			<li><a href="#projects">PROJECTS</a></li>
@@ -41,7 +42,7 @@
 			<div class="col s12 m12 l12 center">
 				<h2 id="raymond">RAYMOND CHUNG</h2>
 				<!-- <h5 id="sub">FRONT-END DEVELOPER</h5> -->
-				<h5 id="sub">FULL STACK DESIGNER & DEVELOPER</h5>
+				<h5 id="sub">FULL STACK DESIGNER & FRONT-END DEVELOPER</h5>
 			</div>
 		</div>
 		<div class="row">
@@ -68,8 +69,8 @@
 	<div class="row aBot">
 		<div class="col s12 m6 l6 center">
 			<img id='pic' src="img/raymond.jpg">
-			<!-- <p>"I make stuff." I am currently a fourth year Computer Science student at Queen's University, where I plan to graduating this upcoming May 2017. I am interested in coding, research, UI/UX, designing, making iOS apps and entrepreneurship! During my time away from the computer, I enjoy socializing with friends, cooking, playing basketball and soccer (go PSG!) and I watch a lot of shows (Netflix originals is major key)!</p> -->
-			<p>I am a fourth year Computer Science & Education student at Queen's University. I am from Toronto, Ontario. I enjoy cooking, playing basketball and soccer and watching shows. My passion lies within entrepreneurship, mobile (iOS) and web development. I am also a self-taught UX/UI Designer! I enjoy creating things for fun, but would like to apply my skills and expertise in the workforce.</p><p>I am currently a Research Assistant at Queen's Faculty of Computing researching software modelling and model-driven development (MDD).</p>
+			<!-- 
+			<p>I am a fourth year Computer Science & Education student at Queen's University. I am from Toronto, Ontario. I enjoy cooking, playing basketball and soccer and watching shows. My passion lies within entrepreneurship, mobile (iOS) and web development. I am also a self-taught Full Stack (Product) Designer, where I enjoy creating things for fun from start to finish. At the moment, I would like to apply my skills and expertise in the workforce.</p>--><p>I am a fourth year Computer Science & Education student at Queen's University. I am from Toronto, Ontario. As a self-taught Full Stack (Product) Designer, I enjoy creating things that appeals visually which entices people to use this product again. My interest lies within entrepreneurship, mobile (iOS) and web development. Away from the computer, I emjoy cooking, playing basketball and soccer and watching shows.</p><p>I am currently a Research Assistant at Queen's Faculty of Computing researching software modelling and model-driven development (MDD).</p>
 		</div>
 		<div class="col s12 m6 l6">
 			<div class="center">
@@ -94,6 +95,8 @@
 			<div id="skills" class="chip">Photoshop</div>
 			
 			<div id="skills" class="chip">Illustrator</div>
+			
+			<div id="skills" class="chip">Sketch 3</div>
 			
 			<div id="skills" class="chip">Bash</div>
 			
@@ -143,8 +146,11 @@
 					<h4>Hanzel</h4>
 <p>Skills acquired: UI/UX Researching & Designing, Rapid Prototyping, iOS Development using Swift</p>
 <p>Tools Used: Microsoft Azure, Xcode, Adobe Photoshop, Proto.io</p>
+
 <p>The idea of Hanzel was to create a mobile app that would allow a hungover user to trace back where they went the night before displaying where they went and how long they stay at one location for. This idea was pitched during the hackathon called Qhacks. This hackathon allowed me to develop new skills such as UI/UX designing and researching, rapid prototpying and gaining insights into app development. Unfortunately we were not able to finish the app because of complications, but it truly kick started my path towards iOS development.</p>
-<span>Problem: What happened the night before?</span>
+<img src="./img/portfolio/hanzel2.png" style="width:30vw;"><img src="./img/portfolio/hanzel3.png" style="width:30vw;">
+
+<span id="problem">Problem: What happened the night before?</span>
 <p>Based on general research, we learn that university and college students who enjoy the night life would often forget where they went last night, and that a majority of these night-goers uses an iPhone. Based on this information, an iOS app would be the most suitable to solve that problem. I was responsible for designing the prototype and creating the backend of the app. For the prototype, I did some research and talked with fellow hackers on the current trends within the mobile development field. Based off of that, I used Proto.io to create a fully-functional prototype that follows the current mobile trends. For the backend, we used Microsoft Azure (node.js and SQL), because cloud service would allow users to access the information on another device if they lost their phone.</p>
 
 				</div>
@@ -161,7 +167,7 @@
 					<h4>shopAssist</h4>
 <p>Skills: Rapid prototyping, iOS Development</p>
 <p>Tools Used: Paper & Pen, Xcode, Adobe Photoshop</p>
-<span>Problem: How can we lessen the language barrier between a customer and the employee?</span>
+<span id="problem">Problem: How can we lessen the language barrier between a customer and the employee?</span>
 <p>While I was working at retail one day, a customer who does not speak English fluently approached me trying to ask for something. It took some time but I was able to help that customer. At the same time, it got me thinking, how can I help similar customers communicate better with people who does not speak the same language. With everyone relying on handheld, mobile devices, an app would be the most suitable to lessen the communication barriers. The iOS app uses a speech sythesizer to say certain words/phrases in English that a customer would want to ask based on my experience. The only thing the user needs to do is press a button that best coresponds to what they would want to ask the retail clerk. Each button contains text written in their own language and colour coded for easier use.</p>
 
 				</div>
@@ -177,7 +183,7 @@
 				<div class="modal-content">
 					<h4>Foody</h4>
 <p>Things Learned: Entrepreneurship, Marketing, Pitching, Business</p>
-<span>Problem: What fresh and healthy meal can I get on campus within 10 minutes?</span>
+<span id="problem">Problem: What fresh and healthy meal can I get on campus within 10 minutes?</span>
 <p>Foody is a subscription-based meal service that distribute fresh, healthy meals in bulk at a cheap price. We founded it to target students within the Queen's community, where trying to eat healthy especially on campus is not friendly on a student budget. I was responsible for maintaining the website and by helping distribute the meals to our customers. Even though it did not work out well, we were glad to have been able to launch it by running a beta testing of it to 6 students of different studies with positive feedback.</p>
 
 				</div>
@@ -194,6 +200,7 @@
 					<h4>deckLog</h4>
 <p>Skills acquired: Android Development</p>
 <p>Tools Used: Android Studio, Adobe Photoshop</p>
+<p><img src="./img/portfolio/log1.png" style="width:30vw;" /><img src="./img/portfolio/log2.png" style="width:30vw;" /></p>
 <p>DeckLog was created during the CodeTheChange: CodeJam 2016 for Kingston Power &amp; Sail. It is an Android app that can track a user's location, and the distance they travelled and stores that information locally. I was responsible for the improving the visuals by modifying or creating graphics and for parts of the front-end such as the logging form.</p>
 
 				</div>

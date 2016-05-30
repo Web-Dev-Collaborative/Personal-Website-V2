@@ -7,4 +7,5 @@ image: "blank5.png"
 <h4>deckLog</h4>
 <p>Skills acquired: Android Development</p>
 <p>Tools Used: Android Studio, Adobe Photoshop</p>
+<img src="./img/portfolio/log1.png" style="width:30vw;"><img src="./img/portfolio/log2.png" style="width:30vw;">
 <p>DeckLog was created during the CodeTheChange: CodeJam 2016 for Kingston Power & Sail. It is an Android app that can track a user's location, and the distance they travelled and stores that information locally. I was responsible for the improving the visuals by modifying or creating graphics and for parts of the front-end such as the logging form.</p>
