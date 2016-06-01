@@ -219,7 +219,8 @@ p#aboutSkills {
 
 .modal {
 	width: 80vw;
-	height: 70vh;
+	height: 86vh;
+	max-height: 88vh;
 }
 
 .list-inline>li {
