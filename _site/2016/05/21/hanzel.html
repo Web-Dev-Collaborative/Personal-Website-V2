@@ -70,7 +70,7 @@
 		<div class="col s12 m6 l6 center">
 			<img id='pic' src="img/raymond.jpg">
 			<!-- 
-			<p>I am a fourth year Computer Science & Education student at Queen's University. I am from Toronto, Ontario. I enjoy cooking, playing basketball and soccer and watching shows. My passion lies within entrepreneurship, mobile (iOS) and web development. I am also a self-taught Full Stack (Product) Designer, where I enjoy creating things for fun from start to finish. At the moment, I would like to apply my skills and expertise in the workforce.</p>--><p>I am a fourth year Computer Science & Education student at Queen's University. I am from Toronto, Ontario. As a self-taught Full Stack (Product) Designer, I enjoy creating things that appeals visually which entices people to use this product again. My interest lies within entrepreneurship, mobile (iOS) and web development. Away from the computer, I emjoy cooking, playing basketball and soccer and watching shows.</p><p>I am currently a Research Assistant at Queen's Faculty of Computing researching software modelling and model-driven development (MDD).</p>
+			<p>I am a fourth year Computer Science & Education student at Queen's University. I am from Toronto, Ontario. I enjoy cooking, playing basketball and soccer and watching shows. My passion lies within entrepreneurship, mobile (iOS) and web development. I am also a self-taught Full Stack (Product) Designer, where I enjoy creating things for fun from start to finish. At the moment, I would like to apply my skills and expertise in the workforce.</p>--><p>I am a fourth year Computer Science & Education student at Queen's University. I am from Toronto, Ontario. As a self-taught Full Stack Designer & Front-End Web Developer, I enjoy creating things that appeal visually which entices people to use this product again. My interests lies within entrepreneurship, mobile (iOS) and web development. Away from the computer, I enjoy cooking, playing basketball and soccer and watching shows.</p><p>I am currently a Research Assistant at Queen's Faculty of Computing researching software modelling and model-driven development (MDD).</p>
 		</div>
 		<div class="col s12 m6 l6">
 			<div class="center">
@@ -231,7 +231,27 @@
     <!-- Scripts -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
+    <script>
+      $(".button-collapse").sideNav();
+
+      $(document).ready(function(){
+          $('.scrollspy').scrollSpy();
+          $('ul.tabs').tabs();
+        });
+
+      $(window).scroll(function() {
+        if ($(".navbar").offset().top > 50) {
+              $(".custom").addClass("custom2");
+          } else {
+              $(".custom").removeClass("custom2");
+          }
+      })
+
+      $(document).ready(function(){
+          // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+          $('.modal-trigger').leanModal();
+        });
+    </script>
   </body>
 
 </html>
