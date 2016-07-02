@@ -1,6 +1,6 @@
 {% assign array1 = "iOS Development,Python,Java,HTML/CSS,SQL,Bootstrap,Materialize,Photoshop,Illustrator,Sketch 3,Bash" | split: "," %}
-{% assign array2 = "Azure,PHP,JavaScript,Jekyll,Unity,Prototyping,UI/UX" | split: "," %}
-{% assign array3 = "Xtext & Xtend,Node.js,Angular.js,MEAN Stack" | split: "," %}
+{% assign array2 = "Azure,PHP,JavaScript,Jekyll,Unity,Prototyping,UI/UX,Xtext & Xtend,Node.js,Angular.js,MEAN Stack" | split: "," %}
+{% assign array3 = "React" | split: "," %}
 
 <section id="about" class="section scrollspy">
 	<div class="row center aTop">
@@ -11,7 +11,7 @@
 		<div class="col s12 m6 l6 center">
 			<img id='pic' src="img/raymond.jpg">
 			<!-- 
-			<p>I am a fourth year Computer Science & Education student at Queen's University. I am from Toronto, Ontario. I enjoy cooking, playing basketball and soccer and watching shows. My passion lies within entrepreneurship, mobile (iOS) and web development. I am also a self-taught Full Stack (Product) Designer, where I enjoy creating things for fun from start to finish. At the moment, I would like to apply my skills and expertise in the workforce.</p>--><p>I am a fourth year Computer Science & Education student at Queen's University. I am from Toronto, Ontario. As a self-taught Full Stack Designer & Front-End Web Developer, I enjoy creating things that appeal visually which entices people to use this product again. My interests lies within entrepreneurship, mobile (iOS) and web development. Away from the computer, I enjoy cooking, playing basketball and soccer and watching shows.</p><p>I am currently a Research Assistant at Queen's Faculty of Computing researching software modelling and model-driven development (MDD).</p>
+			<p>I am a fourth year Computer Science & Education student at Queen's University. I am from Toronto, Ontario. I enjoy cooking, playing basketball and soccer and watching shows. My passion lies within entrepreneurship, mobile (iOS) and web development. I am also a self-taught Full Stack (Product) Designer, where I enjoy creating things for fun from start to finish. At the moment, I would like to apply my skills and expertise in the workforce.</p>--><p>I am a fourth year Computer Science & Education student at Queen's University with a huge passion for entrepreneurship, mobile (iOS) and web development hailing from Toronto, Ontario. As a self-taught Full Stack Designer & Front-End Developer, I enjoy creating things that appeal visually and usable, where I hope to apply my skills within the work field . Away from the computer, I enjoy cooking, playing basketball and soccer and watching shows.</p><p>I am currently a Research Assistant at Queen's Faculty of Computing researching software modelling and model-driven development (MDD).</p>
 		</div>
 		<div class="col s12 m6 l6">
 			<div class="center">
@@ -21,13 +21,13 @@
 			{% for i in array1 %}
 			<div id="skills" class="chip">{{ i }}</div>
 			{% endfor %}
-			<p id="aboutSkills">MODERATE WITH:</p>
+			<p id="aboutSkills">FAMILAR WITH:</p>
 			{% for j in array2 %}
 			<div id="skills" class="chip">{{ j }}</div>
 			{% endfor %}
-			<p id="aboutSkills">CURRENTLY LEARNING:</p>
+			<!--<p id="aboutSkills">CURRENTLY LEARNING:</p>
 			{% for k in array3 %}
-			<div id="skills" class="chip">{{ k }}</div>
+			<div id="skills" class="chip">{{ k }}</div>-->
 			{% endfor %}
 		</div>
 	</div>
