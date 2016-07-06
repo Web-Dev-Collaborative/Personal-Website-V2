@@ -19,7 +19,7 @@ a#navbile {
 }
 
 .navbar {
-    background-color: #5dd1e4;
+    background-color: #82dceb;
     padding-top: 10px;
 }
 
@@ -44,7 +44,8 @@ li#logo {
 }
 
 section#home {
-    background-color: #5dd1e4;
+    /*background-color: #5dd1e4;*/
+    background-color: #82dceb;
     color: #fff;
 	padding-top: 100px;
 	height: 100vh;
@@ -204,7 +205,7 @@ button#resume:hover {
 
 div#skills {
     color: #fff;
-    background-color: #5dd1e4;
+    background-color: #82dceb;
     margin-bottom: 4px;
 }
 
@@ -240,23 +241,23 @@ p#aboutSkills {
     color: transparent;
     font-size: 1.6em;
     border-radius: 200px;
-    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.4);
 }
 
 .contact-icons {
     color: transparent;
     font-size: 1.6em;
     border-radius: 200px;
-    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.4);
 }
 
 span.social-icons.fa-stack {
-    color: rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.4);
 }
 
 span.contact-icons.fa-stack {
     margin-top: 4px;
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.4);
 }
 
 span.contact-icons.fa-stack:hover {
