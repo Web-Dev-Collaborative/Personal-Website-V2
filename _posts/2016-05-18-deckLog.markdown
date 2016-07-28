@@ -1,6 +1,5 @@
 ---
-layout: default
-link:  "deckLog"
+layout: port
 image: "blank5.png"
 ---
 

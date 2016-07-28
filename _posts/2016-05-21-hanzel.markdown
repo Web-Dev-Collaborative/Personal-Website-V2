@@ -1,6 +1,5 @@
 ---
-layout: default
-link:  "hanzel"
+layout: port
 image: "blank6.png"
 ---
 
@@ -9,7 +8,7 @@ image: "blank6.png"
 <p>Tools Used: Microsoft Azure, Xcode, Adobe Photoshop, Proto.io</p>
 
 <p>The idea of Hanzel was to create a mobile app that would allow a hungover user to trace back where they went the night before displaying where they went and how long they stay at one location for. This idea was pitched during the hackathon called Qhacks. This hackathon allowed me to develop new skills such as UI/UX designing and researching, rapid prototpying and gaining insights into app development. Unfortunately we were not able to finish the app because of complications, but it truly kick started my path towards iOS development.</p>
-<img src="./img/portfolio/hanzel2.png" style="width:30vw;"><img src="./img/portfolio/hanzel3.png" style="width:30vw;">
+<img src="../img/portfolio/hanzel2.png" style="width:30vw;"><img src="../img/portfolio/hanzel3.png" style="width:30vw;">
 
 <span id="problem">Problem: What happened the night before?</span>
 <p>Based on general research, we learn that university and college students who enjoy the night life would often forget where they went last night, and that a majority of these night-goers uses an iPhone. Based on this information, an iOS app would be the most suitable to solve that problem. I was responsible for designing the prototype and creating the backend of the app. For the prototype, I did some research and talked with fellow hackers on the current trends within the mobile development field. Based off of that, I used Proto.io to create a fully-functional prototype that follows the current mobile trends. For the backend, we used Microsoft Azure (node.js and SQL), because cloud service would allow users to access the information on another device if they lost their phone.</p>

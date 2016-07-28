@@ -1,6 +1,5 @@
 ---
-layout: default
-link:  "applicationPortal"
+layout: port
 image: "blank2.png"
 ---
 

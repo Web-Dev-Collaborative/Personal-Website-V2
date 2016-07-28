@@ -13,30 +13,7 @@
 
     {% include footer.html %}
 
-    <!-- Scripts -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script>
-      $(".button-collapse").sideNav();
-
-      $(document).ready(function(){
-          $('.scrollspy').scrollSpy();
-          $('ul.tabs').tabs();
-        });
-
-      $(window).scroll(function() {
-        if ($(".navbar").offset().top > 50) {
-              $(".custom").addClass("custom2");
-          } else {
-              $(".custom").removeClass("custom2");
-          }
-      })
-
-      $(document).ready(function(){
-          // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-          $('.modal-trigger').leanModal();
-        });
-    </script>
+    {% include script.html %}
   </body>
 
 </html>

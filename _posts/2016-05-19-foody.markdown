@@ -1,6 +1,5 @@
 ---
-layout: default
-link: "foody"
+layout: port
 image: "blank4.png"
 ---
 

@@ -13,6 +13,17 @@ body {
     font-size: 30px;
 }
 
+.goback {
+    color: #fff;
+    padding-top: 4px;
+}
+
+.goback:hover {
+    color: #82dceb;
+    background-color: #fff;
+    padding: 2px;
+}
+
 a#navbile {
     color: #fff;
     font-size: 20px;
@@ -220,7 +231,7 @@ p#aboutSkills {
 
 .modal {
 	width: 80vw;
-	height: 86vh;
+	/*height: 86vh;*/
 	max-height: 88vh;
 }
 

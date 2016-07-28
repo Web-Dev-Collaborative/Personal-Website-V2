@@ -7,15 +7,7 @@
 		<div class="row center">
 		{% for things in site.posts %}
 			<div class="col s12 m3 l3">
-				<a class="modal-trigger" href="#{{ things.link }}"><img id='blank' src="img/{{ things.image }}"></a>
-			</div>
-			<div id="{{ things.link }}" class="modal">
-				<div class="modal-content">
-					{{ things.content }}
-				</div>
-				<div class="modal-footer">
-					<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-				</div>
+				<a href="{{ things.url }}"><img id='blank' src="img/{{ things.image }}"></a>
 			</div>
 		{% endfor %}
 		</div>
