@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
-
   <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="HanzelSkills acquired: UI/UX Researching &amp; Designing, Rapid Prototyping, iOS Development using SwiftTools Used: Microsoft Azure, Xcode, Adobe Photoshop, ...">
+	<meta name="description" content="			Hanzel App				Rapid Prototyping at a hackathon		Tools Used: Microsoft Azure, Xcode, Adobe Photoshop, Proto.io		The idea of Hanzel was to create a mobile a...">
 	<title>Hanzel</title>
 
 	<!-- CSS -->
@@ -18,55 +17,33 @@
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="img/favicon.png">
 </head>
-  <div class="navbar">
-	<div class="nav-wrapper container">
-		<ul id="nav-mobile" class="section table-of-contents side-nav hide-on-med-and-down">
-			<li><a href="../">HOME</a></li>
-			<li><a href="../resume.pdf">RESUME</a></li>
-			<li><a href="../#about">ABOUT</a></li>
-			<li><a href="../#projects">PROJECTS</a></li>
-			<li><a href="../#contact">CONTACT</a></li>
-			<li id="menucontact"><i class="fa fa-envelope fa-stack-1.8x"></i> me@raymondchung.ca</li>
-			<li id="menucontact"><i class="fa fa-phone fa-stack-1.8x"></i> 416-712-3147</li>
+  <nav class="navbarP">
+	<div class="nav-wrapper">
+		<a href="../" class="brand-logo left">Raymond</a>
+		<ul id="nav-mobile" class="right">
+			<li><a id="navP" href="../">HOME</a></li>
+			<li><a id="navP" href="../#about">ABOUT</a></li>
+			<li><a id="navP" href="../#projects">PROJECTS</a></li>
 		</ul>
-		<a class="right goback" href="../">Go back</a>
-		<a id='navbile' href="#" data-activates="nav-mobile" class="button-collapse"><i id="iconFix" class="material-icons">menu</i></a>
 	</div>
-</div>
+</nav>
   <body>
-  	<h4>Hanzel</h4>
-<p>Skills acquired: UI/UX Researching &amp; Designing, Rapid Prototyping, iOS Development using Swift</p>
-<p>Tools Used: Microsoft Azure, Xcode, Adobe Photoshop, Proto.io</p>
+  	<div class="container">
+	<div class="center">
+		<h3 id="pTitle">Hanzel App</h3>
+		<hr id="hrP" />
+		<p id="pSubTitle">Rapid Prototyping at a hackathon</p>
+		<p>Tools Used: Microsoft Azure, Xcode, Adobe Photoshop, Proto.io</p>
+	</div>
+	<p>The idea of Hanzel was to create a mobile app that would allow a hungover user to trace back where they went the night before displaying where they went and how long they stay at one location for. This idea was pitched during the hackathon called Qhacks. This hackathon allowed me to develop new skills such as UI/UX designing and researching, rapid prototpying and gaining insights into app development. Unfortunately we were not able to finish the app because of complications, but it truly kick started my path towards iOS development.</p>
+	<div class="center">
+		<img src="../img/portfolio/hanzel2.png" style="width:30vw;" /><img src="../img/portfolio/hanzel3.png" style="width:30vw;" />
+		<p><span id="problem">Problem: What happened the night before?</span></p>
+	</div>
+	<p>Based on general research, we learn that university and college students who enjoy the night life would often forget where they went last night, and that a majority of these night-goers uses an iPhone. Based on this information, an iOS app would be the most suitable to solve that problem. I was responsible for designing the prototype and creating the backend of the app. For the prototype, I did some research and talked with fellow hackers on the current trends within the mobile development field. Based off of that, I used Proto.io to create a fully-functional prototype that follows the current mobile trends. For the backend, we used Microsoft Azure (node.js and SQL), because cloud service would allow users to access the information on another device if they lost their phone.</p>
+</div>
 
-<p>The idea of Hanzel was to create a mobile app that would allow a hungover user to trace back where they went the night before displaying where they went and how long they stay at one location for. This idea was pitched during the hackathon called Qhacks. This hackathon allowed me to develop new skills such as UI/UX designing and researching, rapid prototpying and gaining insights into app development. Unfortunately we were not able to finish the app because of complications, but it truly kick started my path towards iOS development.</p>
-<p><img src="../img/portfolio/hanzel2.png" style="width:30vw;" /><img src="../img/portfolio/hanzel3.png" style="width:30vw;" /></p>
-
-<p><span id="problem">Problem: What happened the night before?</span></p>
-<p>Based on general research, we learn that university and college students who enjoy the night life would often forget where they went last night, and that a majority of these night-goers uses an iPhone. Based on this information, an iOS app would be the most suitable to solve that problem. I was responsible for designing the prototype and creating the backend of the app. For the prototype, I did some research and talked with fellow hackers on the current trends within the mobile development field. Based off of that, I used Proto.io to create a fully-functional prototype that follows the current mobile trends. For the backend, we used Microsoft Azure (node.js and SQL), because cloud service would allow users to access the information on another device if they lost their phone.</p>
-
-  	<!-- Scripts -->
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="js/materialize.min.js"></script>
-<script>
-  $(".button-collapse").sideNav();
-
-  $(document).ready(function(){
-      $('.scrollspy').scrollSpy();
-      $('ul.tabs').tabs();
-    });
-
-  $(window).scroll(function() {
-    if ($(".navbar").offset().top > 50) {
-          $(".custom").addClass("custom2");
-      } else {
-          $(".custom").removeClass("custom2");
-      }
-  })
-
-  $(document).ready(function(){
-      // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-      $('.modal-trigger').leanModal();
-    });
-</script>
+  	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="../js/materialize.min.js"></script>
   </body>
 </html>

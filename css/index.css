@@ -13,15 +13,14 @@ body {
     font-size: 30px;
 }
 
-.goback {
-    color: #fff;
-    padding-top: 4px;
+#pTitle {
+    font-weight: 700;
 }
 
-.goback:hover {
-    color: #82dceb;
-    background-color: #fff;
-    padding: 2px;
+#pSubTitle {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #aab;
 }
 
 a#navbile {
@@ -29,8 +28,19 @@ a#navbile {
     font-size: 20px;
 }
 
-.navbar {
+.navbar, .navbarP {
     background-color: #82dceb;
+}
+
+.navbarP {
+    box-shadow: 0 0 0 0 #fff;
+}
+
+#navP {
+    color: #fff;
+}
+
+.navbar {
     padding-top: 10px;
 }
 
@@ -122,6 +132,12 @@ hr#hrTitle {
     border: 1.4px solid #5dd1e4;
     background-color: #5dd1e4;
     margin: 0 40vw 0 40vw;
+}
+
+hr#hrP {
+    border: 1.4px solid #5dd1e4;
+    background-color: #5dd1e4;
+    margin: 0 32vw 0 32vw;
 }
 
 img#blank {

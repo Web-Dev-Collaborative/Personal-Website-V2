@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
-
   <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="FoodyThings Learned: Entrepreneurship, Marketing, Pitching, BusinessProblem: What fresh and healthy meal can I get on campus within 10 minutes?Foody is a sub...">
+	<meta name="description" content="			Foody				Problem: What fresh and healthy meal can I get on campus within 10 minutes?		Foody is a subscription-based meal service that distribute fresh, he...">
 	<title>Foody</title>
 
 	<!-- CSS -->
@@ -18,50 +17,27 @@
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="img/favicon.png">
 </head>
-  <div class="navbar">
-	<div class="nav-wrapper container">
-		<ul id="nav-mobile" class="section table-of-contents side-nav hide-on-med-and-down">
-			<li><a href="../">HOME</a></li>
-			<li><a href="../resume.pdf">RESUME</a></li>
-			<li><a href="../#about">ABOUT</a></li>
-			<li><a href="../#projects">PROJECTS</a></li>
-			<li><a href="../#contact">CONTACT</a></li>
-			<li id="menucontact"><i class="fa fa-envelope fa-stack-1.8x"></i> me@raymondchung.ca</li>
-			<li id="menucontact"><i class="fa fa-phone fa-stack-1.8x"></i> 416-712-3147</li>
+  <nav class="navbarP">
+	<div class="nav-wrapper">
+		<a href="../" class="brand-logo left">Raymond</a>
+		<ul id="nav-mobile" class="right">
+			<li><a id="navP" href="../">HOME</a></li>
+			<li><a id="navP" href="../#about">ABOUT</a></li>
+			<li><a id="navP" href="../#projects">PROJECTS</a></li>
 		</ul>
-		<a class="right goback" href="../">Go back</a>
-		<a id='navbile' href="#" data-activates="nav-mobile" class="button-collapse"><i id="iconFix" class="material-icons">menu</i></a>
 	</div>
-</div>
+</nav>
   <body>
-  	<h4>Foody</h4>
-<p>Things Learned: Entrepreneurship, Marketing, Pitching, Business</p>
-<p><span id="problem">Problem: What fresh and healthy meal can I get on campus within 10 minutes?</span></p>
-<p>Foody is a subscription-based meal service that distribute fresh, healthy meals in bulk at a cheap price. We founded it to target students within the Queen's community, where trying to eat healthy especially on campus is not friendly on a student budget. I was responsible for maintaining the website and by helping distribute the meals to our customers. Even though it did not work out well, we were glad to have been able to launch it by running a beta testing of it to 6 students of different studies with positive feedback.</p>
+  	<div class="container">
+	<div class="center">
+		<h3 id="pTitle">Foody</h3>
+		<hr id="hrP" />
+		<span id="problem">Problem: What fresh and healthy meal can I get on campus within 10 minutes?</span>
+	</div>
+	<p>Foody is a subscription-based meal service that distribute fresh, healthy meals in bulk at a cheap price. We founded it to target students within the Queen's community, where trying to eat healthy especially on campus is not friendly on a student budget. I was responsible for maintaining the website and by helping distribute the meals to our customers. Even though it did not work out well, we were glad to have been able to launch it by running a beta testing of it to 6 students of different studies with positive feedback.</p>
+</div>
 
-  	<!-- Scripts -->
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="js/materialize.min.js"></script>
-<script>
-  $(".button-collapse").sideNav();
-
-  $(document).ready(function(){
-      $('.scrollspy').scrollSpy();
-      $('ul.tabs').tabs();
-    });
-
-  $(window).scroll(function() {
-    if ($(".navbar").offset().top > 50) {
-          $(".custom").addClass("custom2");
-      } else {
-          $(".custom").removeClass("custom2");
-      }
-  })
-
-  $(document).ready(function(){
-      // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-      $('.modal-trigger').leanModal();
-    });
-</script>
+  	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="../js/materialize.min.js"></script>
   </body>
 </html>
