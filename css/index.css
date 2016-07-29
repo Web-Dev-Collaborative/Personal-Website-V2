@@ -23,6 +23,10 @@ body {
     color: #aab;
 }
 
+#space {
+    padding-bottom: 40px;
+}
+
 a#navbile {
     color: #fff;
     font-size: 20px;
