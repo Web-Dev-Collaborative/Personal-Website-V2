@@ -144,7 +144,7 @@ hr#hrP {
     margin: 0 32vw 0 32vw;
 }
 
-img#blank {
+img#portImg, img#blank {
     width: 100%;
 }
 
