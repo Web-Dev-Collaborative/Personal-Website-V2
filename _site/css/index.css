@@ -135,9 +135,6 @@ h5#aboutSub {
     padding: 40px 0 40px 0;
 }
 
-.aBot {
-}
-
 /*------------------ 4. Project Info ------------------*/
 #pTitle {
     font-weight: 700;
@@ -180,14 +177,12 @@ button#resume {
     border: 2px solid #616161;
     padding: 10px;
     border-radius: 10px;
+    transition: color,border 0.3s ease-out;
 }
 
 button#resume:hover {
     color: #5dd1e4;
     border: 2px solid #5dd1e4;
-    animation-name: resumeAnim;
-    animation-duration: 0.5s;
-    animation-iteration-count: 1;
 }
 
 div#skills {
@@ -213,6 +208,17 @@ p#aboutSkills {
 
 a.proj {
     padding-left: 10px;
+}
+
+p#caption {
+    color: #aab;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+img.imgSpace {
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 /*------------------ 5. Footer ------------------*/
@@ -253,6 +259,11 @@ a.proj {
 
     img#pic {
         width: 80%;
+    }
+
+    img#portImg {
+        width: auto;
+        max-width: 100%;
     }
 }
 
@@ -303,7 +314,8 @@ a.proj {
     color: transparent;
     font-size: 1.6em;
     border-radius: 200px;
-    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.12);
+    transition: color,background-color 0.3s ease-out;
 }
 
 .contact-icons {
@@ -314,70 +326,32 @@ a.proj {
 }
 
 span.social-icons.fa-stack {
-    color: rgba(0, 0, 0, 0.4);
+    color: rgba(255, 255, 255, 0.8);
+    transition: color 0.3s ease-in;
 }
 
 span.contact-icons.fa-stack {
     margin-top: 4px;
     color: rgba(255, 255, 255, 0.4);
+    transition: color,background-color 0.3s ease-in;
 }
 
 span.contact-icons.fa-stack:hover {
     color: #fff;
     background-color: #0DBEDB; /* #5dd1e4 as alt*/
-    animation-name: contactHover;
-    animation-duration: 2s;
-    animation-iteration-count: 1
 }
+
 span.linkedin.social-icons.fa-stack.fa-2x:hover {
-    color: #1b8bbf;
-    box-shadow: 0 0 0 2px #1b8bbf;
+    color: #fff;
+    background-color: #1b8bbf;
 }
 
 span.github.social-icons.fa-stack.fa-2x:hover {
-    color: #ff449c;
-    box-shadow: 0 0 0 2px #ff449c;
-    animation-name: githubHover;
-    animation-duration: 0.3s;
-    animation-iteration-count: 1;
+    color: #fff;
+    background-color: #ff449c;
 }
 
 span.email.social-icons.fa-stack.fa-2x:hover {
-    color: #ff652f;
-    box-shadow: 0 0 0 2px #ff652f;
-    animation-name: emailHover;
-    animation-duration: 0.3s;
-    animation-iteration-count: 1;
-}
-
-@keyframes resumeAnim {
-    0% {border-color: rgba(93, 209, 228, 0.2);} 
-    25% {border-color: rgba(93, 209, 228, 0.4);} 
-    50% {border-color: rgba(93, 209, 228, 0.6);} 
-    75% {border-color: rgba(93, 209, 228, 0.8);} 
-    100% {border-color: rgba(93, 209, 228, 1);} 
-}
-
-@keyframes emailHover { /* #ffae22 in GBA is 255, 174, 34; ff652f is 255, 101, 47*/
-    0% {box-shadow: 0 0 0 2px rgba(255, 101, 47, 0.2);} 
-    25% {box-shadow: 0 0 0 2px rgba(255, 101, 47, 0.4);} 
-    50% {box-shadow: 0 0 0 2px rgba(255, 101, 47, 0.6);} 
-    75% {box-shadow: 0 0 0 2px rgba(255, 101, 47, 0.8);} 
-    100% {box-shadow: 0 0 0 2px rgba(255, 101, 47, 1);} 
-}
-
-@keyframes githubHover { /* #ff449c in GBA is 255, 68, 156 */
-    0% {box-shadow: 0 0 0 2px rgba(255, 68, 156, 0.2);} 
-    25% {box-shadow: 0 0 0 2px rgba(255, 68, 156, 0.4);} 
-    50% {box-shadow: 0 0 0 2px rgba(255, 68, 156, 0.6);} 
-    75% {box-shadow: 0 0 0 2px rgba(255, 68, 156, 0.8);} 
-    100% {box-shadow: 0 0 0 2px rgba(255, 68, 156, 1);} 
-}
-
-@keyframes linkedinHover { /* #1b8bbf in GBA is 27, 129, 191 */
-    0% {box-shadow: 0 0 0 2px rgba(27, 129, 191, 0.2);} 
-    25% {box-shadow: 0 0 0 2px rgba(27, 129, 191, 0.4);} 
-    50% {box-shadow: 0 0 0 2px rgba(27, 129, 191, 0.6);} 
-    75% {box-shadow: 0 0 0 2px rgba(27, 129, 191, 0.8);} 
-    100% {box-shadow: 0 0 0 2px rgba(27, 129, 191, 1);} 
+    color: #fff;
+    background-color: #f70047;
 }
