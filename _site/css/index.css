@@ -1,3 +1,19 @@
+/*
+By: Raymond Chung
+For: rchung95.github.io
+
+Sections:
+1. General
+2. Navigation Bar
+3. About
+4. Project Info
+5. Footer
+6. Media Sizing
+7. Icons
+*/
+
+
+/*------------------ 1. General ------------------*/
 html {
 	height: 100vh;
 	width: 100vw;
@@ -9,24 +25,40 @@ body {
 	color: #616161;
 }
 
-.material-icons {
-    font-size: 30px;
+section#home {
+    /*background-color: #5dd1e4;*/
+    background-color: #82dceb;
+    color: #fff;
+    padding-top: 100px;
+    height: 100vh;
+    width: 100vw;
 }
 
-#pTitle {
-    font-weight: 700;
+section#about {
 }
 
-#pSubTitle {
-    font-style: italic;
-    font-size: 1.2rem;
-    color: #aab;
+section#projects {
+    background-color: #f1f1f1;
 }
 
-#space {
-    padding-bottom: 40px;
+footer#contact {
+    color: #fff;
+    background-color: #2b2d2f;
 }
 
+h4#title {
+    /* color: #58c4ea; */
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+
+hr#hrTitle {
+    border: 1.4px solid #5dd1e4;
+    background-color: #5dd1e4;
+    margin: 0 40vw 0 40vw;
+}
+
+/*------------------ 2. Navigation Bar ------------------*/
 a#navbile {
     color: #fff;
     font-size: 20px;
@@ -49,15 +81,11 @@ a#navbile {
 }
 
 nav.custom2 {
-	background-color: rgba(0, 0, 0, 0.4) !important;
+    background-color: rgba(0, 0, 0, 0.4) !important;
 }
 
 nav ul a {
     color: #616161;
-}
-
-li#logo {
-    padding-bottom: 60px;
 }
 
 .table-of-contents a:hover {
@@ -68,27 +96,11 @@ li#logo {
     border-left: 8px solid #58c4ea;
 }
 
-section#home {
-    /*background-color: #5dd1e4;*/
-    background-color: #82dceb;
-    color: #fff;
-	padding-top: 100px;
-	height: 100vh;
-	width: 100vw;
+li#menucontact {
+    padding-left: 14px;
 }
 
-section#about {
-}
-
-section#projects {
-	background-color: #f1f1f1;
-}
-
-footer#contact {
-    color: #fff;
-    background-color: #2b2d2f;
-}
-
+/*------------------ 3. About ------------------*/
 img#pic {
     width: 90%;
 }
@@ -99,17 +111,17 @@ h2#raymond {
 
 span#chung {
     color: #58c4ea;
-	font-weight: 700;
+    font-weight: 700;
 }
 
 h5#sub {
-	font-size: 20px;
+    font-size: 20px;
     font-weight: 300;
     letter-spacing: 1px;
     border: 4px solid #fff;
-	/* border: 4px solid #fdc424; */
-	/* color: #fdc424; */
-	padding: 10px;
+    /* border: 4px solid #fdc424; */
+    /* color: #fdc424; */
+    padding: 10px;
 }
 
 h5#aboutSub {
@@ -126,16 +138,19 @@ h5#aboutSub {
 .aBot {
 }
 
-h4#title {
-    /* color: #58c4ea; */
-    letter-spacing: 4px;
-    font-weight: 300;
+/*------------------ 4. Project Info ------------------*/
+#pTitle {
+    font-weight: 700;
 }
 
-hr#hrTitle {
-    border: 1.4px solid #5dd1e4;
-    background-color: #5dd1e4;
-    margin: 0 40vw 0 40vw;
+#pSubTitle {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #aab;
+}
+
+#space {
+    padding-bottom: 40px;
 }
 
 hr#hrP {
@@ -158,6 +173,59 @@ span#problem {
 	font-size: 1.3em;
 }
 
+button#resume {
+    font-size: 20px;
+    color: #616161;
+    background-color: transparent;
+    border: 2px solid #616161;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button#resume:hover {
+    color: #5dd1e4;
+    border: 2px solid #5dd1e4;
+    animation-name: resumeAnim;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+
+div#skills {
+    color: #fff;
+    background-color: #82dceb;
+    margin-bottom: 4px;
+}
+
+p#aboutSkills {
+    font-size: 14pt;
+    margin-bottom: -1px;
+}
+
+#blank:hover {
+    opacity: 0.65;
+}
+
+.modal {
+    width: 80vw;
+    /*height: 86vh;*/
+    max-height: 88vh;
+}
+
+a.proj {
+    padding-left: 10px;
+}
+
+/*------------------ 5. Footer ------------------*/
+.v-section {
+    padding-top: 1rem;
+    padding-bottom: 0.1rem;
+}
+
+#copyright {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+/*------------------ 6. Media Sizing ------------------*/
 @media(min-width: 601px) {
     section#home {
         padding-top: 130px;
@@ -213,46 +281,9 @@ span#problem {
     }
 }
 
-li#menucontact {
-    padding-left: 14px;
-}
-
-button#resume {
-    font-size: 20px;
-    color: #616161;
-    background-color: transparent;
-    border: 2px solid #616161;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-button#resume:hover {
-    color: #5dd1e4;
-    border: 2px solid #5dd1e4;
-    animation-name: resumeAnim;
-    animation-duration: 0.5s;
-    animation-iteration-count: 1;
-}
-
-div#skills {
-    color: #fff;
-    background-color: #82dceb;
-    margin-bottom: 4px;
-}
-
-p#aboutSkills {
-    font-size: 14pt;
-    margin-bottom: -1px;
-}
-
-#blank:hover {
-    opacity: 0.65;
-}
-
-.modal {
-	width: 80vw;
-	/*height: 86vh;*/
-	max-height: 88vh;
+/*------------------ 7. Icons ------------------*/
+.material-icons {
+    font-size: 30px;
 }
 
 .list-inline>li {
@@ -278,8 +309,8 @@ p#aboutSkills {
 .contact-icons {
     color: transparent;
     font-size: 1.6em;
+    background-color: #313336;
     border-radius: 200px;
-    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.4);
 }
 
 span.social-icons.fa-stack {
@@ -292,15 +323,15 @@ span.contact-icons.fa-stack {
 }
 
 span.contact-icons.fa-stack:hover {
-    color: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 0 0 2px rgba(255, 255, 255 ,0.8);
+    color: #fff;
+    background-color: #0DBEDB; /* #5dd1e4 as alt*/
+    animation-name: contactHover;
+    animation-duration: 2s;
+    animation-iteration-count: 1
 }
 span.linkedin.social-icons.fa-stack.fa-2x:hover {
     color: #1b8bbf;
     box-shadow: 0 0 0 2px #1b8bbf;
-    animation-name: linkedinHover;
-    animation-duration: 0.3s;
-    animation-iteration-count: 1;
 }
 
 span.github.social-icons.fa-stack.fa-2x:hover {
@@ -311,10 +342,10 @@ span.github.social-icons.fa-stack.fa-2x:hover {
     animation-iteration-count: 1;
 }
 
-span.instagram.social-icons.fa-stack.fa-2x:hover {
+span.email.social-icons.fa-stack.fa-2x:hover {
     color: #ff652f;
     box-shadow: 0 0 0 2px #ff652f;
-    animation-name: instagramHover;
+    animation-name: emailHover;
     animation-duration: 0.3s;
     animation-iteration-count: 1;
 }
@@ -327,7 +358,7 @@ span.instagram.social-icons.fa-stack.fa-2x:hover {
     100% {border-color: rgba(93, 209, 228, 1);} 
 }
 
-@keyframes instagramHover { /* #ffae22 in GBA is 255, 174, 34; ff652f is 255, 101, 47*/
+@keyframes emailHover { /* #ffae22 in GBA is 255, 174, 34; ff652f is 255, 101, 47*/
     0% {box-shadow: 0 0 0 2px rgba(255, 101, 47, 0.2);} 
     25% {box-shadow: 0 0 0 2px rgba(255, 101, 47, 0.4);} 
     50% {box-shadow: 0 0 0 2px rgba(255, 101, 47, 0.6);} 
