@@ -311,7 +311,6 @@ img.imgSpace {
     font-size: 1.6em;
     border-radius: 200px;
     background-color: rgba(0, 0, 0, 0.12);
-    transition: background-color 0.3s ease-in;
 }
 
 .contact-icons {
@@ -323,13 +322,18 @@ img.imgSpace {
 
 span.social-icons.fa-stack {
     color: rgba(255, 255, 255, 0.8);
-    transition: color 0.3s ease-in;
+    transition: background-color,color 0.3s ease-in;
 }
 
 span.contact-icons.fa-stack {
     margin-top: 4px;
     color: rgba(255, 255, 255, 0.4);
     transition: color,background-color 0.3s ease-in;
+}
+
+span.resume.social-icons.fa-stack:hover {
+    color: #fff;
+    background-color: #65589C;
 }
 
 span.contact-icons.fa-stack:hover {
@@ -349,5 +353,5 @@ span.github.social-icons.fa-stack.fa-2x:hover {
 
 span.email.social-icons.fa-stack.fa-2x:hover {
     color: #fff;
-    background-color: #f70047;
+    background-color: #FD5959;
 }
