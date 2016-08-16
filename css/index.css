@@ -32,9 +32,6 @@ section#home {
     width: 100vw;
 }
 
-section#about {
-}
-
 section#projects {
     background-color: #f1f1f1;
 }
@@ -101,6 +98,10 @@ li#menucontact {
 /*------------------ 3. About ------------------*/
 img#pic {
     width: 90%;
+}
+
+p#desc {
+    font-size: 1.15rem;
 }
 
 h2#raymond {
@@ -260,6 +261,10 @@ img.imgSpace {
     img#portImg {
         width: auto;
         max-width: 100%;
+    }
+
+    p#desc {
+        font-size: 1rem;
     }
 }
 
